@@ -35,15 +35,16 @@
             this.pictureBox = new System.Windows.Forms.PictureBox();
             this.txtQRCode = new System.Windows.Forms.TextBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.btnSave = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // btnStart
             // 
             this.btnStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStart.Location = new System.Drawing.Point(21, 355);
+            this.btnStart.Location = new System.Drawing.Point(12, 461);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(394, 23);
+            this.btnStart.Size = new System.Drawing.Size(335, 23);
             this.btnStart.TabIndex = 0;
             this.btnStart.Text = " Scan";
             this.btnStart.UseVisualStyleBackColor = true;
@@ -64,23 +65,23 @@
             this.cboDevice.FormattingEnabled = true;
             this.cboDevice.Location = new System.Drawing.Point(85, 12);
             this.cboDevice.Name = "cboDevice";
-            this.cboDevice.Size = new System.Drawing.Size(278, 21);
+            this.cboDevice.Size = new System.Drawing.Size(215, 21);
             this.cboDevice.TabIndex = 2;
             // 
             // pictureBox
             // 
             this.pictureBox.Location = new System.Drawing.Point(15, 39);
             this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(400, 310);
+            this.pictureBox.Size = new System.Drawing.Size(332, 416);
             this.pictureBox.TabIndex = 3;
             this.pictureBox.TabStop = false;
             // 
             // txtQRCode
             // 
-            this.txtQRCode.Location = new System.Drawing.Point(421, 39);
+            this.txtQRCode.Location = new System.Drawing.Point(365, 39);
             this.txtQRCode.Multiline = true;
             this.txtQRCode.Name = "txtQRCode";
-            this.txtQRCode.Size = new System.Drawing.Size(176, 339);
+            this.txtQRCode.Size = new System.Drawing.Size(130, 136);
             this.txtQRCode.TabIndex = 4;
             // 
             // timer1
@@ -88,11 +89,23 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // btnSave
+            // 
+            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.Location = new System.Drawing.Point(365, 181);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(130, 23);
+            this.btnSave.TabIndex = 5;
+            this.btnSave.Text = "Save";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(609, 395);
+            this.ClientSize = new System.Drawing.Size(517, 490);
+            this.Controls.Add(this.btnSave);
             this.Controls.Add(this.txtQRCode);
             this.Controls.Add(this.pictureBox);
             this.Controls.Add(this.cboDevice);
@@ -116,6 +129,7 @@
         private System.Windows.Forms.PictureBox pictureBox;
         private System.Windows.Forms.TextBox txtQRCode;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Button btnSave;
     }
 }
 

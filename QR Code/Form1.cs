@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -63,6 +64,14 @@ namespace QR_Code
                         captureDevice.Stop();
                 }
             }
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            StreamWriter file = new StreamWriter(@"C:\Users\Carlo\source\test.txt");
+            file.WriteLine("Name:" + txtQRCode.Text);
+            file.Close();
+            MessageBox.Show("Thank you!");
         }
     }
 }
