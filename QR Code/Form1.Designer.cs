@@ -41,9 +41,9 @@
             // btnStart
             // 
             this.btnStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStart.Location = new System.Drawing.Point(187, 394);
+            this.btnStart.Location = new System.Drawing.Point(21, 355);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(73, 23);
+            this.btnStart.Size = new System.Drawing.Size(394, 23);
             this.btnStart.TabIndex = 0;
             this.btnStart.Text = " Scan";
             this.btnStart.UseVisualStyleBackColor = true;
@@ -53,7 +53,7 @@
             // 
             this.lbl1.AutoSize = true;
             this.lbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl1.Location = new System.Drawing.Point(12, 77);
+            this.lbl1.Location = new System.Drawing.Point(18, 17);
             this.lbl1.Name = "lbl1";
             this.lbl1.Size = new System.Drawing.Size(61, 16);
             this.lbl1.TabIndex = 1;
@@ -62,25 +62,25 @@
             // cboDevice
             // 
             this.cboDevice.FormattingEnabled = true;
-            this.cboDevice.Location = new System.Drawing.Point(79, 76);
+            this.cboDevice.Location = new System.Drawing.Point(85, 12);
             this.cboDevice.Name = "cboDevice";
             this.cboDevice.Size = new System.Drawing.Size(278, 21);
             this.cboDevice.TabIndex = 2;
             // 
             // pictureBox
             // 
-            this.pictureBox.Location = new System.Drawing.Point(79, 119);
+            this.pictureBox.Location = new System.Drawing.Point(15, 39);
             this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(278, 269);
+            this.pictureBox.Size = new System.Drawing.Size(400, 310);
             this.pictureBox.TabIndex = 3;
             this.pictureBox.TabStop = false;
             // 
             // txtQRCode
             // 
-            this.txtQRCode.Location = new System.Drawing.Point(363, 119);
+            this.txtQRCode.Location = new System.Drawing.Point(421, 39);
             this.txtQRCode.Multiline = true;
             this.txtQRCode.Name = "txtQRCode";
-            this.txtQRCode.Size = new System.Drawing.Size(161, 269);
+            this.txtQRCode.Size = new System.Drawing.Size(176, 339);
             this.txtQRCode.TabIndex = 4;
             // 
             // timer1
@@ -92,7 +92,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(594, 499);
+            this.ClientSize = new System.Drawing.Size(609, 395);
             this.Controls.Add(this.txtQRCode);
             this.Controls.Add(this.pictureBox);
             this.Controls.Add(this.cboDevice);
