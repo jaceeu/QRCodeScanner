@@ -1,0 +1,22 @@
+C:\Users\Carlo\source\repos\QR Code\QR Code\bin\Debug\QR Code.exe.config
+C:\Users\Carlo\source\repos\QR Code\QR Code\bin\Debug\QR Code.exe
+C:\Users\Carlo\source\repos\QR Code\QR Code\bin\Debug\QR Code.pdb
+C:\Users\Carlo\source\repos\QR Code\QR Code\bin\Debug\AForge.dll
+C:\Users\Carlo\source\repos\QR Code\QR Code\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Carlo\source\repos\QR Code\QR Code\bin\Debug\AForge.Video.dll
+C:\Users\Carlo\source\repos\QR Code\QR Code\bin\Debug\zxing.dll
+C:\Users\Carlo\source\repos\QR Code\QR Code\bin\Debug\zxing.presentation.dll
+C:\Users\Carlo\source\repos\QR Code\QR Code\bin\Debug\AForge.xml
+C:\Users\Carlo\source\repos\QR Code\QR Code\bin\Debug\AForge.Video.xml
+C:\Users\Carlo\source\repos\QR Code\QR Code\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Carlo\source\repos\QR Code\QR Code\bin\Debug\zxing.xml
+C:\Users\Carlo\source\repos\QR Code\QR Code\bin\Debug\zxing.presentation.xml
+C:\Users\Carlo\source\repos\QR Code\QR Code\obj\Debug\QR Code.csproj.AssemblyReference.cache
+C:\Users\Carlo\source\repos\QR Code\QR Code\obj\Debug\QR Code.csproj.SuggestedBindingRedirects.cache
+C:\Users\Carlo\source\repos\QR Code\QR Code\obj\Debug\QR_Code.Form1.resources
+C:\Users\Carlo\source\repos\QR Code\QR Code\obj\Debug\QR_Code.Properties.Resources.resources
+C:\Users\Carlo\source\repos\QR Code\QR Code\obj\Debug\QR Code.csproj.GenerateResource.cache
+C:\Users\Carlo\source\repos\QR Code\QR Code\obj\Debug\QR Code.csproj.CoreCompileInputs.cache
+C:\Users\Carlo\source\repos\QR Code\QR Code\obj\Debug\QR Code.csproj.CopyComplete
+C:\Users\Carlo\source\repos\QR Code\QR Code\obj\Debug\QR Code.exe
+C:\Users\Carlo\source\repos\QR Code\QR Code\obj\Debug\QR Code.pdb
